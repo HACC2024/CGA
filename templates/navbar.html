@@ -1,0 +1,40 @@
+{% load static %}
+<!-- navbar imported from bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #007398;">
+  <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+          <!-- Make the image responsive with img-fluid and set max-width for smaller screens -->
+          <img src="{% static 'cga-crop.png' %}" alt="Logo" class="img-fluid" style="max-width: 150px; height: auto; margin-right: 25px;">
+          <span class="d-none d-sm-inline">Hawaii Resource Chatbot</span> <!-- Hide text on small screens -->
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"  toggle="collapse" data-target=".navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www8.honolulu.gov/" target="_blank">
+              City & County of Honolulu</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.hawaiicounty.gov/" target="_blank">
+              County of Hawai'i</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.mauicounty.gov/" target="_blank">
+              County of Maui</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.kauai.gov/Home" target="_blank">
+              County of Kaua'i</a>
+          </li>
+
+      </div>
+    </div>
+  </nav>

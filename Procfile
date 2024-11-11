@@ -1,0 +1,1 @@
+web: gunicorn gemini_chatbot.wsgi --log-file -
